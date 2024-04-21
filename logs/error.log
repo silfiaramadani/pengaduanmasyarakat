@@ -1,0 +1,448 @@
+2024-04-18 04:14:20 alert: App config file doesn`t exist
+2024-04-18 04:14:46 alert: App config file doesn`t exist
+2024-04-18 04:14:51 alert: App config file doesn`t exist
+2024-04-18 04:15:20 alert: App config file doesn`t exist
+2024-04-18 04:25:16 alert: App config file doesn`t exist
+2024-04-18 04:25:53 alert: App config file doesn`t exist
+2024-04-18 04:26:33 alert: App config file doesn`t exist
+2024-04-18 04:26:48 alert: App config file doesn`t exist
+2024-04-18 04:26:52 alert: App config file doesn`t exist
+2024-04-18 04:27:23 alert: App config file doesn`t exist
+2024-04-18 04:27:30 alert: App config file doesn`t exist
+2024-04-18 04:43:16 alert: App config file doesn`t exist
+2024-04-18 04:43:26 alert: App config file doesn`t exist
+2024-04-18 05:06:11 alert: App config file doesn`t exist
+2024-04-18 05:06:32 alert: App config file doesn`t exist
+2024-04-18 05:06:40 alert: App config file doesn`t exist
+2024-04-18 05:07:18 alert: App config file doesn`t exist
+2024-04-18 05:25:19 warning: Undefined array key "images"
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+Trace:
+App\Controller\PengaduanController->add() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 162
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:25:19 error: [Error] Call to a member function getClientFilename() on null in C:\xampp2\htdocs\sil2024\src\Controller\PengaduanController.php on line 53
+Stack Trace:
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:69
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php:103
+- C:\xampp2\htdocs\sil2024\webroot\index.php:37
+- [main]:
+
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+2024-04-18 05:25:20 alert: App config file doesn`t exist
+2024-04-18 05:25:20 alert: App config file doesn`t exist
+2024-04-18 05:25:20 warning: Unable to emit headers. Headers sent in file=C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php line=37
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 65
+Cake\Http\ResponseEmitter->emit() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 139
+Cake\Http\Server->emit() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:25:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 159
+Cake\Http\ResponseEmitter->emitStatusLine() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 68
+Cake\Http\ResponseEmitter->emit() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 139
+Cake\Http\Server->emit() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:25:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 139
+Cake\Http\Server->emit() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:25:20 warning: Cannot modify header information - headers already sent by (output started at C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Renderer\HtmlErrorRenderer.php:37)
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 192
+Cake\Http\ResponseEmitter->emitHeaders() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 69
+Cake\Http\ResponseEmitter->emit() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 139
+Cake\Http\Server->emit() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:30:14 alert: App config file doesn`t exist
+2024-04-18 05:30:14 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php:330
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php:103
+- C:\xampp2\htdocs\sil2024\webroot\index.php:37
+- [main]:
+
+Request URL: /img/pengaduan/696091.jpg
+Referer URL: http://localhost:8765/pengaduan
+2024-04-18 05:30:14 alert: App config file doesn`t exist
+2024-04-18 05:30:19 alert: App config file doesn`t exist
+2024-04-18 05:30:21 alert: App config file doesn`t exist
+2024-04-18 05:30:21 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php:330
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php:103
+- C:\xampp2\htdocs\sil2024\webroot\index.php:37
+- [main]:
+
+Request URL: /img/pengaduan/696091.jpg
+Referer URL: http://localhost:8765/pengaduan
+2024-04-18 05:30:21 alert: App config file doesn`t exist
+2024-04-18 05:30:24 alert: App config file doesn`t exist
+2024-04-18 05:30:52 alert: App config file doesn`t exist
+2024-04-18 05:30:52 error: [Cake\Http\Exception\MissingControllerException] Controller class `Img` could not be found. in C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php:330
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:78
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php:103
+- C:\xampp2\htdocs\sil2024\webroot\index.php:37
+- [main]:
+
+Request URL: /img/pengaduan/696091.jpg
+Referer URL: http://localhost:8765/pengaduan
+2024-04-18 05:30:52 alert: App config file doesn`t exist
+2024-04-18 05:33:16 alert: App config file doesn`t exist
+2024-04-18 05:35:49 alert: App config file doesn`t exist
+2024-04-18 06:07:30 alert: App config file doesn`t exist
+2024-04-18 06:07:35 alert: App config file doesn`t exist
+2024-04-18 06:07:40 alert: App config file doesn`t exist
+2024-04-18 06:07:42 alert: App config file doesn`t exist
+2024-04-18 06:07:56 alert: App config file doesn`t exist
+2024-04-18 06:08:33 alert: App config file doesn`t exist
+2024-04-18 06:08:47 error: [Cake\Http\Exception\MissingControllerException] Controller class `Tangapan` could not be found. in C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 308
+Exception Attributes: array (
+  'controller' => 'Tangapan',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:74
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php:330
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:69
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php:103
+- C:\xampp2\htdocs\sil2024\webroot\index.php:37
+- [main]:
+
+Request URL: /tangapan
+2024-04-18 06:08:47 alert: App config file doesn`t exist
+2024-04-18 06:09:19 alert: App config file doesn`t exist
+2024-04-18 06:09:26 alert: App config file doesn`t exist
+2024-04-18 06:10:00 alert: App config file doesn`t exist
+2024-04-18 06:12:07 alert: App config file doesn`t exist
+2024-04-18 06:12:27 alert: App config file doesn`t exist
+2024-04-18 06:41:52 alert: App config file doesn`t exist
+2024-04-18 06:41:54 alert: App config file doesn`t exist
+2024-04-18 07:01:05 alert: App config file doesn`t exist
+2024-04-18 07:03:06 alert: App config file doesn`t exist
+2024-04-18 07:03:10 alert: App config file doesn`t exist
+2024-04-18 07:03:46 alert: App config file doesn`t exist
+2024-04-18 07:08:40 alert: App config file doesn`t exist
+2024-04-18 07:09:07 alert: App config file doesn`t exist
+2024-04-18 07:15:37 alert: App config file doesn`t exist
+2024-04-18 07:15:39 alert: App config file doesn`t exist
+2024-04-18 07:15:58 alert: App config file doesn`t exist
+2024-04-18 07:16:00 alert: App config file doesn`t exist
+2024-04-18 07:19:58 alert: App config file doesn`t exist
+2024-04-18 07:20:01 alert: App config file doesn`t exist
+2024-04-18 07:20:40 alert: App config file doesn`t exist
+2024-04-18 07:20:48 alert: App config file doesn`t exist
+2024-04-18 07:20:53 alert: App config file doesn`t exist
+2024-04-18 07:21:00 alert: App config file doesn`t exist
+2024-04-18 07:21:01 alert: App config file doesn`t exist
+2024-04-18 07:23:02 alert: App config file doesn`t exist
+2024-04-18 07:30:04 alert: App config file doesn`t exist
+2024-04-18 07:31:54 alert: App config file doesn`t exist
+2024-04-18 07:32:07 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`sil2024`.`pengaduan`, CONSTRAINT `FKpengaduan52247` FOREIGN KEY (`petugas_id`) REFERENCES `petugas` (`id`)) in C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Statement\Statement.php on line 159
+Stack Trace:
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Statement\Statement.php:159
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Driver.php:323
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Driver.php:298
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:71
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Connection.php:263
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Query.php:222
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php:2181
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php:2074
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php:1969
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php:1600
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Database\Connection.php:632
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php:1600
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php:1968
+- C:\xampp2\htdocs\sil2024\src\Controller\PengaduanController.php:57
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php:498
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:139
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:114
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php:332
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:86
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:169
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php:87
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:162
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:118
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:69
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:115
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:82
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php:67
+- C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php:103
+- C:\xampp2\htdocs\sil2024\webroot\index.php:37
+- [main]:
+
+Request URL: /pengaduan/add
+Referer URL: http://localhost:8765/pengaduan/add
+2024-04-18 07:32:07 alert: App config file doesn`t exist
+2024-04-18 07:32:11 alert: App config file doesn`t exist
+2024-04-18 07:32:42 alert: App config file doesn`t exist
+2024-04-18 07:36:21 alert: App config file doesn`t exist
+2024-04-18 07:36:29 alert: App config file doesn`t exist
+2024-04-18 07:44:38 alert: App config file doesn`t exist
+2024-04-18 07:45:06 alert: App config file doesn`t exist
+2024-04-18 07:45:23 alert: App config file doesn`t exist
+2024-04-18 07:45:26 alert: App config file doesn`t exist
+2024-04-18 07:45:27 alert: App config file doesn`t exist
+2024-04-18 07:45:34 alert: App config file doesn`t exist
+2024-04-18 07:46:03 alert: App config file doesn`t exist
+2024-04-18 07:46:07 alert: App config file doesn`t exist
+2024-04-18 07:46:13 alert: App config file doesn`t exist
+2024-04-18 07:46:31 alert: App config file doesn`t exist
+2024-04-18 07:47:24 alert: App config file doesn`t exist
+2024-04-18 07:47:26 alert: App config file doesn`t exist
+2024-04-18 07:47:34 alert: App config file doesn`t exist
+2024-04-18 07:47:43 alert: App config file doesn`t exist
+2024-04-18 07:47:51 alert: App config file doesn`t exist
+2024-04-18 07:48:19 alert: App config file doesn`t exist
+2024-04-18 07:48:20 alert: App config file doesn`t exist
+2024-04-18 07:48:31 alert: App config file doesn`t exist
+2024-04-18 07:48:38 alert: App config file doesn`t exist
+2024-04-18 07:48:40 alert: App config file doesn`t exist
+2024-04-18 07:49:11 alert: App config file doesn`t exist
+2024-04-18 07:49:19 alert: App config file doesn`t exist
+2024-04-18 07:49:23 alert: App config file doesn`t exist
+2024-04-18 07:50:21 alert: App config file doesn`t exist
+2024-04-19 00:08:04 alert: App config file doesn`t exist
+2024-04-19 00:08:11 alert: App config file doesn`t exist
+2024-04-19 00:09:01 alert: App config file doesn`t exist
+2024-04-19 00:09:10 alert: App config file doesn`t exist
+2024-04-19 00:09:57 alert: App config file doesn`t exist
+2024-04-19 00:10:26 alert: App config file doesn`t exist
+2024-04-19 00:10:59 alert: App config file doesn`t exist
+2024-04-19 00:34:24 alert: App config file doesn`t exist
+2024-04-19 00:34:26 alert: App config file doesn`t exist
+2024-04-19 00:34:28 alert: App config file doesn`t exist
+2024-04-19 00:35:16 alert: App config file doesn`t exist
+2024-04-19 00:35:20 alert: App config file doesn`t exist
+2024-04-19 00:35:23 alert: App config file doesn`t exist
+2024-04-19 00:35:26 alert: App config file doesn`t exist
+2024-04-19 00:35:31 alert: App config file doesn`t exist
+2024-04-19 00:35:33 alert: App config file doesn`t exist
+2024-04-19 00:35:35 alert: App config file doesn`t exist
+2024-04-19 00:35:44 alert: App config file doesn`t exist
+2024-04-19 00:35:45 alert: App config file doesn`t exist
+2024-04-19 00:35:51 alert: App config file doesn`t exist
+2024-04-19 00:35:54 alert: App config file doesn`t exist
+2024-04-19 00:35:58 alert: App config file doesn`t exist
+2024-04-19 01:14:43 alert: App config file doesn`t exist
+2024-04-19 01:43:56 alert: App config file doesn`t exist
+2024-04-19 02:04:48 alert: App config file doesn`t exist
+2024-04-19 02:08:18 alert: App config file doesn`t exist
+2024-04-19 02:14:02 alert: App config file doesn`t exist
+2024-04-19 02:14:10 alert: App config file doesn`t exist
+2024-04-19 02:14:20 alert: App config file doesn`t exist
+2024-04-19 02:14:23 alert: App config file doesn`t exist
+2024-04-19 02:14:27 alert: App config file doesn`t exist
+2024-04-19 02:14:36 alert: App config file doesn`t exist
+2024-04-19 02:14:45 alert: App config file doesn`t exist
+2024-04-19 02:23:52 alert: App config file doesn`t exist
+2024-04-19 02:24:00 alert: App config file doesn`t exist
+2024-04-19 02:24:03 alert: App config file doesn`t exist
+2024-04-19 02:24:04 alert: App config file doesn`t exist
+2024-04-19 02:24:08 alert: App config file doesn`t exist
+2024-04-19 02:24:20 alert: App config file doesn`t exist
+2024-04-19 02:24:23 alert: App config file doesn`t exist
+2024-04-19 02:32:57 alert: App config file doesn`t exist
+2024-04-19 02:34:31 alert: App config file doesn`t exist
+2024-04-19 02:35:01 alert: App config file doesn`t exist
+2024-04-19 02:35:41 alert: App config file doesn`t exist
+2024-04-19 02:35:48 alert: App config file doesn`t exist
+2024-04-19 02:36:09 alert: App config file doesn`t exist
+2024-04-19 02:36:53 alert: App config file doesn`t exist
+2024-04-19 02:37:01 alert: App config file doesn`t exist
+2024-04-19 02:37:16 alert: App config file doesn`t exist
+2024-04-19 02:37:25 alert: App config file doesn`t exist
+2024-04-19 02:37:59 alert: App config file doesn`t exist
+2024-04-19 02:38:03 alert: App config file doesn`t exist
+2024-04-19 02:39:05 alert: App config file doesn`t exist
+2024-04-19 02:39:09 alert: App config file doesn`t exist
+2024-04-19 02:39:35 alert: App config file doesn`t exist
+2024-04-19 02:40:32 alert: App config file doesn`t exist
+2024-04-19 02:42:13 alert: App config file doesn`t exist
+2024-04-19 02:43:43 alert: App config file doesn`t exist
+2024-04-19 02:44:21 alert: App config file doesn`t exist
+2024-04-19 02:44:22 alert: App config file doesn`t exist
+2024-04-19 02:45:10 alert: App config file doesn`t exist
+2024-04-19 02:45:43 alert: App config file doesn`t exist
+2024-04-19 02:45:57 alert: App config file doesn`t exist
+2024-04-19 02:46:42 alert: App config file doesn`t exist
+2024-04-19 02:48:14 alert: App config file doesn`t exist
+2024-04-19 02:48:53 alert: App config file doesn`t exist
+2024-04-19 02:49:09 alert: App config file doesn`t exist
+2024-04-19 02:49:28 alert: App config file doesn`t exist
+2024-04-19 02:49:32 alert: App config file doesn`t exist
+2024-04-19 02:49:36 alert: App config file doesn`t exist
+2024-04-19 02:50:25 alert: App config file doesn`t exist
+2024-04-19 02:51:34 alert: App config file doesn`t exist
+2024-04-19 02:54:12 alert: App config file doesn`t exist
+2024-04-19 02:54:29 alert: App config file doesn`t exist
+2024-04-19 02:54:35 alert: App config file doesn`t exist
+2024-04-19 02:54:36 alert: App config file doesn`t exist
+2024-04-19 02:54:39 alert: App config file doesn`t exist
+2024-04-19 02:55:49 alert: App config file doesn`t exist
+2024-04-19 02:56:02 alert: App config file doesn`t exist
+2024-04-19 03:00:12 alert: App config file doesn`t exist
+2024-04-19 03:00:14 alert: App config file doesn`t exist
+2024-04-19 03:00:22 alert: App config file doesn`t exist
+2024-04-19 03:00:33 alert: App config file doesn`t exist
+2024-04-19 03:00:39 alert: App config file doesn`t exist
+2024-04-19 03:00:47 alert: App config file doesn`t exist
+2024-04-19 03:00:53 alert: App config file doesn`t exist
+2024-04-19 03:00:56 alert: App config file doesn`t exist
+2024-04-19 03:01:04 alert: App config file doesn`t exist
+2024-04-19 03:01:14 alert: App config file doesn`t exist
+2024-04-19 03:01:23 alert: App config file doesn`t exist
+2024-04-19 03:03:21 alert: App config file doesn`t exist

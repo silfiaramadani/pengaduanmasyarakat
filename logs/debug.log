@@ -1,0 +1,937 @@
+2024-04-18 04:43:16 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 04:43:26 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:30:18 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/pengaduan
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 05:35:49 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/pengaduan
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 06:07:30 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/pengaduan
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 06:07:35 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 06:12:27 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/pengaduan/view/5
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 06:41:52 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/pengaduan/view/5
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 07:45:06 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 07:46:03 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-18 07:47:43 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:09:10 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:09:57 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:10:26 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:10:59 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:34:23 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas?sort=level&direction=asc
+Referer URL: http://localhost:8765/petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:34:26 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas?sort=level&direction=desc
+Referer URL: http://localhost:8765/petugas?sort=level&direction=asc
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:35:16 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/edit/12
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:35:20 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/edit/12
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:35:51 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/view/12
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 00:35:58 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/view/12
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 02:23:52 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 02:24:03 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 02:34:31 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 02:35:41 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 02:49:28 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
+2024-04-19 02:51:34 notice: Since 5.0.0: Calling `findAll` finder with options array is deprecated. Use named arguments instead.
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line: 2645
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/ORM/Table.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /petugas
+Referer URL: http://localhost:8765/petugas/login?redirect=%2Fpetugas
+Trace:
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Core\functions.php, line 325
+C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2703
+Cake\ORM\Table->invokeFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 2645
+Cake\ORM\Table->callFinder() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\ORM\Table.php, line 1294
+Cake\ORM\Table->find() C:\xampp2\htdocs\sil2024\src\Controller\PetugasController.php, line 79
+App\Controller\PetugasController->index() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\Controller.php, line 498
+Cake\Controller\Controller->invokeAction() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 86
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\authentication\src\Middleware\AuthenticationMiddleware.php, line 87
+Authentication\Middleware\AuthenticationMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 82
+Cake\Http\Runner->handle() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Runner.php, line 67
+Cake\Http\Runner->run() C:\xampp2\htdocs\sil2024\vendor\cakephp\cakephp\src\Http\Server.php, line 103
+Cake\Http\Server->run() C:\xampp2\htdocs\sil2024\webroot\index.php, line 37
+[main]
+
